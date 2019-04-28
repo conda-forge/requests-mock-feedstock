@@ -1,4 +1,4 @@
-{% set version = "1.5.2" %}
+{% set version = "1.6.0" %}
 
 package:
   name: requests-mock
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/r/requests-mock/requests-mock-{{ version }}.tar.gz
-  sha256: 7a5fa99db5e3a2a961b6f20ed40ee6baeff73503cf0a553cc4d679409e6170fb
+  sha256: 12e17c7ad1397fd1df5ead7727eb3f1bdc9fe1c18293b0492e0e01b57997e38d
 
 build:
   number: 0
@@ -20,7 +20,7 @@ requirements:
     - python
   run:
     - python
-    - requests >=1.1
+    - requests >=2.3
     - six
 
 test:
