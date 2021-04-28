@@ -17,9 +17,9 @@ requirements:
   host:
     - pbr
     - pip
-    - python
+    - python 2.7|>=3.4
   run:
-    - python
+    - python 2.7|>=3.4
     - requests >=2.3
     - six
 
@@ -29,7 +29,7 @@ test:
 
 about:
   home: https://github.com/jamielennox/requests-mock
-  license: Apache 2.0
+  license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE
   summary: requests-mock provides a building block to stub out the HTTP requests portions of your testing code.
