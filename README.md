@@ -1,11 +1,11 @@
-About requests-mock
-===================
+About requests-mock-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/requests-mock-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/jamielennox/requests-mock
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/requests-mock-feedstock/blob/main/LICENSE.txt)
 
 Summary: requests-mock provides a building block to stub out the HTTP requests portions of your testing code.
 
